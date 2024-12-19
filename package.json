@@ -1,0 +1,50 @@
+{
+  "name": "can-i-pet-that-dawg",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@chromatic-com/storybook": "^3.2.3",
+    "@eslint/js": "^9.15.0",
+    "@storybook/addon-essentials": "8.5.0-beta.3",
+    "@storybook/addon-onboarding": "8.5.0-beta.3",
+    "@storybook/blocks": "8.5.0-beta.3",
+    "@storybook/experimental-addon-test": "^8.5.0-beta.3",
+    "@storybook/react": "8.5.0-beta.3",
+    "@storybook/react-vite": "8.5.0-beta.3",
+    "@storybook/test": "8.5.0-beta.3",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.4",
+    "@vitest/browser": "^2.1.8",
+    "@vitest/coverage-v8": "^2.1.8",
+    "eslint": "^9.15.0",
+    "eslint-plugin-react": "^7.37.2",
+    "eslint-plugin-react-hooks": "^5.0.0",
+    "eslint-plugin-react-refresh": "^0.4.14",
+    "eslint-plugin-storybook": "^0.11.1",
+    "globals": "^15.12.0",
+    "playwright": "^1.49.1",
+    "prop-types": "^15.8.1",
+    "storybook": "8.5.0-beta.3",
+    "vite": "^6.0.1",
+    "vitest": "^2.1.8"
+  },
+  "eslintConfig": {
+    "extends": [
+      "plugin:storybook/recommended"
+    ]
+  }
+}
